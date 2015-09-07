@@ -1,0 +1,72 @@
+#!/bin/bash
+#PBS -q gerstein -W group_list=gerstein
+#PBS -l nodes=1:ppn=4
+cd $PBS_O_WORKDIR
+
+: << 'END'
+echo "Topic: 1a.Annotate the TAR 50% 2ways"
+./run_bins.sh -annot1
+echo "Output: *.annot"
+
+echo "Topic: 1b.Annotate the TAR 50% 1way"
+./run_bins.sh -annot2
+./run_bins.sh -annot2b
+echo "Output: *.annot"
+
+echo "Topic: 1c.Annotate the TAR 90% 1way"
+./run_bins.sh -annot3
+echo "Output: *.annot"
+
+echo "Topic: 1d.Exclude the TAR even 1base ovelap with inclusive and exclusive set"
+./run_bins.sh -annot4
+./run_bins.sh -anti1
+./run_bins.sh -anti2
+echo "Output: *.annot"
+
+echo "Topic: 2 collect the annotation into matrix"
+./run_bins.sh -ca
+echo "Output: *annot.matrix"
+
+echo "Topic: 2a collapse the annotation into one column"
+./run_bins.sh -mannot
+echo "Output: *annot.final and *annot.novel"
+
+echo "Topic: 2b collapse the annotation into one column"
+./run_bins.sh -sumannot
+echo "Output: *annot.sum"
+
+END
+
+echo "Section: II. Calculate singal for each TAR" 
+echo "Topic: 1.Average singnals from tilting array (6 stages)"
+./run_bins.sh -array
+
+: <<'END'
+echo "Topic: 2.Average singnals from small RNAseq in 11 stages"
+./run_bins.sh -srna
+
+echo "Topic: 3.Average singnals from poly RNAseq in emb and starved L1"
+./run_bins.sh -rnaseq
+
+echo "Topic: 3a.Average singnals from poly RNAseq (Waterson Group)"
+./run_bins.sh -rnaseq2
+
+echo "Topic: 4.DCPM for poly and short RNAseq"
+./run_bins.sh -dcpm
+
+END
+
+echo "Topic: 5.collect the features into a matrix header"
+./run_bins.sh -expression
+
+echo "Topic: 6. expression matrix (maximum)"
+./run_bins.sh -expression_max
+
+#echo "Topic: 7. rm_mt"
+#./run_bins.sh -rm_mt
+
+echo "Topic: 8. matrix"
+./run_bins.sh -matrix
+
+
+
