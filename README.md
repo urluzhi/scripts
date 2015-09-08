@@ -6,6 +6,8 @@ Scripts/Software shared by Zhi John Lu
 * School of Life Sciences, Tsinghua University
 * Email: 
 ![alt text](http://lulab.life.tsinghua.edu.cn/postar/image/email.png "lulab")
+* http://bioinfo.life.tsinghua.edu.cn
+* http://www.ncrnalab.org
 
 
 All scripts have been tested on Lu Lab Server (ncrna/30).
