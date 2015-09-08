@@ -1,0 +1,39 @@
+
+R version 2.13.1 (2011-07-08)
+Copyright (C) 2011 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-redhat-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> #load library
+> library("lattice")
+> #read the data table
+> data=read.table("boxplot_lite_example.tsv",header=T)
+> #name the output file format
+> png("boxplot_lite.png",width=800,height=600)
+> #plot
+> attach(data)
+> boxplot(GC~Annotation,xlab="Gene class",ylab="GC%",ylim=c(0,1),col=c("red","yellow","green","blue","light pink","light blue","grey"))
+> #Write the file
+> dev.off()
+null device 
+          1 
+> 
+> proc.time()
+   user  system elapsed 
+  0.850   0.040   1.052 
