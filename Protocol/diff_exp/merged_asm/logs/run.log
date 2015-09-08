@@ -1,0 +1,9 @@
+/data/apps_chao/cufflinks-2.0.2.Linux_x86_64/cuffmerge -g yeast_chrI_annotation.gff -s bowtie_index/YeastGenome.fa -p 4 assemblies.txt
+gtf_to_sam -F ./wt1_clout/transcripts.gtf ./merged_asm/tmp/gtf2sam_file8bYSGr
+gtf_to_sam -F ./wt1X_clout/transcripts.gtf ./merged_asm/tmp/gtf2sam_filecg8mtl
+gtf_to_sam -F ./wt2_clout/transcripts.gtf ./merged_asm/tmp/gtf2sam_fileApjygf
+gtf_to_sam -F ./wt2X_clout/transcripts.gtf ./merged_asm/tmp/gtf2sam_fileEHDq48
+sort -k 3,3 -k 4,4n --temporary-directory=./merged_asm//meta_asm_tmp/ ./merged_asm/tmp/gtf2sam_file8bYSGr ./merged_asm/tmp/gtf2sam_filecg8mtl ./merged_asm/tmp/gtf2sam_fileApjygf ./merged_asm/tmp/gtf2sam_fileEHDq48 > ./merged_asm/tmp/mergeSam_fileCXWYS2
+cufflinks -o ./merged_asm/ -F 0.05 -g yeast_chrI_annotation.gff -q --overhang-tolerance 200 --library-type=transfrags -A 0.0 --min-frags-per-transfrag 0 --no-5-extend -p 4 ./merged_asm/tmp/mergeSam_fileCXWYS2
+cuffcompare -o tmp_meta_asm -C -G  -r yeast_chrI_annotation.gff  -s bowtie_index/YeastGenome.fa ./merged_asm//transcripts.gtf
+cuffcompare -o tmp_meta_asm -C -G  -r yeast_chrI_annotation.gff  -s bowtie_index/YeastGenome.fa ./merged_asm//merged.gtf

@@ -1,0 +1,7 @@
+warning:
+1.cufflinks: /usr/lib64/libz.so.1: no version information available (required by cufflinks)
+This is a downloaded binary version. Better download the source and compile it locally.
+
+
+
+

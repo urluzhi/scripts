@@ -1,0 +1,5 @@
+file	condition	replicate_num	total_mass	norm_mass	internal_scale	external_scale
+./wt1_thout/chrI.bam	q1	0	18253.5	21083.4	0.96969	0.852803
+./wt2_thout/chrI.bam	q1	1	20009.8	21083.4	1.03197	0.852803
+./wt1Ox_thout/chrI.bam	q2	0	19977.4	21083.4	1.01905	1.18226
+./wt2Ox_thout/chrI.bam	q2	1	21893.4	21083.4	0.982299	1.18226

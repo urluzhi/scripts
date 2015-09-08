@@ -1,0 +1,5 @@
+param	value
+cmd_line	cuffdiff -o diff_out -b bowtie_index/YeastGenome.fa -p 4 -u merged_asm/merged.gtf ./wt1_thout/chrI.bam,./wt2_thout/chrI.bam ./wt1Ox_thout/chrI.bam,./wt2Ox_thout/chrI.bam 
+version	2.0.2
+SVN_revision	3522
+boost_version	104900
