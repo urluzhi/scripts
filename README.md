@@ -4,8 +4,8 @@ Scripts/Software shared by Zhi John Lu
 
 * MOE Key Lab of Bioinformatics
 * School of Life Sciences, Tsinghua University
-* lulab@biomed.tsinghua.edu.cn)
-* Email: !(http://lulab.life.tsinghua.edu.cn/postar/image/email.png)
+* Email: 
+![alt text](http://lulab.life.tsinghua.edu.cn/postar/image/email.png "lulab")
 
 
 All scripts have been tested on Lu Lab Server (ncrna/30).
