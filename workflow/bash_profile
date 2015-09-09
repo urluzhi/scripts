@@ -1,0 +1,51 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+#Customized home at /data
+MYHOME=/data/users/zl222
+
+# User specific environment and startup programs
+if [ -f $HOME/shortcuts ]; then
+	source $HOME/shortcuts
+fi
+	
+for i in `ls -d $MYHOME/bin/*  $MYHOME/svn/* $MYHOME/svn/John_scripts/* /data/apps/*  /data/bin/* `; do
+	if [ -d $i ] ; then
+	PATH=$PATH:$i
+	fi 
+done
+PATH=$PATH:$MYHOME/bin:$MYHOME/bin/blast/bin
+PATH=/data/apps/samtools-0.1.17:$PATH
+
+alias qstat="qstat -u '*'"
+alias screen="/usr/bin/screen -D -R"
+alias rm="$MYHOME/bin/del.sh"
+alias undel="$MYHOME/bin/del.sh -u"
+alias ls="ls --color"
+alias ld="ls -d"
+alias c="clear"
+alias l="ls -alh"
+alias lf="ls -F|grep /"
+alias lt="ls -tlr"
+alias mv="mv -i"  
+alias cp="cp -pi"
+alias diff="diff -b"
+PERL5LIB=$MYHOME/perllib:$MYHOME/perllib/lib64/perl5/site_perl/5.8.5:$MYHOME/perlib/lib/perl5/site_perl/5.8.5
+PERL5LIB=$PERL5LIB:$MYHOME/perllib/lib64/perl5/site_perl/5.8.8:$MYHOME/perlib/lib/perl5/site_perl/5.8.8:$MYHOME/perllib/lib/perl5/site_perl/5.8.8
+PERL5LIB=${PERL5LIB}:$MYHOME/cvs/ensembl/modules
+PERL5LIB=${PERL5LIB}:$MYHOME/cvs/ensembl-compara/modules
+PERL5LIB=${PERL5LIB}:$MYHOME/cvs/ensembl-functgenomics/modules
+PERL5LIB=${PERL5LIB}:$MYHOME/svn/John_scripts/modules
+PERL5LIB=${PERL5LIB}:$MYHOME/bin/ViennaRNA/Perl
+export PERL5LIB
+export R_LIBS_USER=~/R:/data/apps/R_library
+
+
+export BOWTIE_INDEXES=$MYHOME/Projects/genomes/bowtie_indexes
+export PATH
+unset USERNAME
+cd $MYHOME

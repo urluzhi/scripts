@@ -1,5 +1,6 @@
 ########################################
 # Path for bins
+########################################
 PATH=\
 #/data/apps/R-2.15/bin:\
 #/data/Di_shared/apps_chao/ncbi-blast-2.2.26+/bin:\
@@ -11,16 +12,11 @@ PATH=\
 /data/Di_shared/apps_chao/bamtools-1.0.2/bin:\
 $PATH
 
-#for i in `ls -d /data/Di_shared/apps_chao/*  `; do
-#	if [ -d $i ] ; then
-#	PATH=$PATH:$i
-#	fi 
-#done
-
-
 export PATH
 
 ########################################
 # Path for R libraries
+########################################
 export R_LIBS_USER=/data/R_library_chao:/data/R_library_chao
+
 
