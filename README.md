@@ -2,6 +2,9 @@
 
 Scripts/Software shared by Zhi John Lu
 
+> Programming is a way of life. It relects both art of design and logic of plan.
+> Althoug I keep reminding myself the goal is to shoot a bird during my research, I often find myself enjoying the shine of gun itself.
+
 * MOE Key Lab of Bioinformatics
 * School of Life Sciences, Tsinghua University
 * Email: 
@@ -12,7 +15,6 @@ Scripts/Software shared by Zhi John Lu
 
 ---
 
-All scripts have been tested on Lu Lab Server (ncrna/30).
 
 | Dir        | Function           | Note  |
 | ------------- |:-------------:| -----:|
@@ -22,10 +24,10 @@ All scripts have been tested on Lu Lab Server (ncrna/30).
 | Rscript | plot, statisctics and machine learning     | **R** or **Matlab** is the best way to deal with matrix data, develop a model or plot a figure  |
 
 
+All scripts have been tested on Lu Lab Server (ncrna/30).
 
 
-> Programming is a way of life. It relects both art of design and logic of plan.
-> Althoug I keep reminding myself the goal is to shoot a bird during my research, I often find myself enjoying the shine of gun itself.
+
 
 
 ---
