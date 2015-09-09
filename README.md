@@ -20,9 +20,10 @@ All scripts have been tested on Lu Lab Server (ncrna/30).
 
 | Dir        | Function           | Note  |
 | ------------- |:-------------:| -----:|
-| workflow      | Run multiple jobs on HPC | bash maybe the best way to do this |
-| MISC scripts/genomics    | manuipulating genomic sequences and reads  | python or perl is the best; I know perl better  |
-| Rscript | plot, statisctics and machine learning     | best way to deal with matrix data, develop a model or plot a figure  |
+| workflow      | Run multiple jobs on HPC | **bash** maybe the most efficient way to manage multiple jobs |
+| MISC scripts/genomics    | Manuipulate genomic sequences and reads  | **python** or **perl** is the best; I know perl better  |
+| RNA Structure scritps    | fold RNA 2nd structures  | folding needs speed, so we used **c++**  |
+| Rscript | plot, statisctics and machine learning     | **R** or **Matlab** is the best way to deal with matrix data, develop a model or plot a figure  |
 
 
 
