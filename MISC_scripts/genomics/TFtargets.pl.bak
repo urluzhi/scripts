@@ -1,0 +1,111 @@
+#!/usr/bin/perl 
+use strict;	use warnings;	# CREATED: Zhi John Lu 04/07/10 15:13:33 EDT
+#===============================================================================
+my $transcripts_file="coding-noncoding_transcripts";
+my $dict="/net/home15-6/zl222/Projects/gff/worm/gff4TF/elegans_ws170_exon_structures.txt";
+my $upstream=2000;
+my $downstream=500;
+my $usage = <<EOF;
+USAGE:
+	./TFtargets.pl [PEAKS] [TRANSCRIPTS] (with_ncRNA) 
+EOF
+##############################################################
+die $usage unless (@ARGV); 
+
+# read peak center 
+system("cat $ARGV[0] |sed 's/^chr//g' |cut -f 1-3,8 > file1.tmp" );
+system("cat file1.tmp |awk '{center=(\$2+\$3)/2;printf \"%s\\t%d\\t%d\\n\",\$1,center-2,center+2}'> file1c.tmp" );
+# read transcripts with downstream and upstream
+open (TMP,">file2.tmp");
+open(TRANS, "cat $ARGV[1] |sed 's/^chr//g'| sort -k1,1 -k4,4n -k5,5n|" );
+my @trans=<TRANS>;
+my (@chr,@start,@end,@strand,@id);
+foreach(@trans) {
+	my @tab=split;
+	push @chr,$tab[0];
+	push @start,$tab[3];
+	push @end,$tab[4];
+	push @strand,$tab[6];
+	push @id,$tab[8];
+}
+my $i=0;
+foreach(@chr) {
+	#check if overlapped with upstream gene
+	my ($new_start, $new_end);
+	if($end[$i]-$start[$i]<$downstream) { $downstream=$end[$i]-$start[$i]; } # $downstream 500nt away from TSS but not exceed TTS
+	if($strand[$i] eq "+") {
+		$new_start=$start[$i]-$upstream;
+		$new_end=$start[$i]+$downstream;
+	}
+	elsif($strand[$i] eq "-") {
+		$new_start=$end[$i]-$downstream;
+		$new_end=$end[$i]+$upstream;
+	}		
+	print TMP "$chr[$i]\t$new_start\t$new_end\t"; 
+	print TMP "$chr[$i]\t$start[$i]\t$end[$i]\t$strand[$i]\t$id[$i]\n"; 
+
+	$i++;
+}
+close(TRANS);
+close(TMP);
+
+#get gene pulic id for coding transcripts 
+my %info; 
+    open(DICT,"$dict" ) or die("Can't read file: $dict $!\n");
+    #read the information
+    while (<DICT>) {
+        my @t=split "\t",$_;
+        if ($t[1] && $t[3]) {
+            $info{$t[3]}    = $t[1];
+        }
+    }
+	close DICT;
+
+#Run the overlapper program and parse it
+system ("BinOverlapper_full file2.tmp file1c.tmp > file3.tmp");
+open (OVERLAP,"cut -f 4- file3.tmp|");
+open (OUT,"|sed  's/,\\t/\\t/g; s/,\$//g'> file4.tmp");
+while(<OVERLAP>) {
+	my @tab=split /[,\n]/, $_;
+	if($tab[0]) {
+		foreach (@tab){
+			my @t=split;
+			print OUT  "$t[7],";
+		}
+		print OUT  "\t";
+		foreach (@tab){
+			my @t=split;
+			print OUT $t[3],"_",$t[4],"_",$t[5],"_",$t[6],",";
+		}
+		#need gene public ID for coding transcripts
+			print OUT  "\t";
+			my @pid;
+			foreach (@tab){
+				my @t=split;
+				if ($info{$t[7]} ) {  	push @pid, $info{$t[7]};   	}		
+				else {  	push @pid, $t[7];   	}		
+			}
+   			my  %saw;
+		    my @out;
+			@out = grep(!$saw{$_}++, @pid);
+			foreach(@out) {print OUT "$_,";}
+		print OUT "\n";
+	}
+	else { 
+		print OUT "$_";
+	}
+}
+close(OVERLAP);
+close(OUT);
+
+if ($ARGV[2] && $ARGV[2] eq 'with_ncRNA') {
+	system("paste file1.tmp file4.tmp |sed 's/\\t/_/1;s/\\t/_/1'| \
+		awk 'BEGIN{print \"Peak_Positoin\\tPeak_q_value\\tTargeted_Transcript_ID\\tTargeted_Transcript_Position\\tTargeted_Gene_ID\"}{print \$0}'");
+}
+else { 
+	system("paste file1.tmp file4.tmp |sed 's/\\t/_/1;s/\\t/_/1'| \
+		awk 'BEGIN{print \"Peak_Positoin\\tPeak_q_value\\tTargeted_Transcript_ID\\tTargeted_Transcript_Position\\tTargeted_Gene_ID\"}{print \$0}'");
+}
+#unlink ("*.tmp");
+
+
