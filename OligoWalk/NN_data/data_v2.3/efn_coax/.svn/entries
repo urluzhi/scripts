@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2008-09-12T09:01:55.688121Z"
+   url="svn+ssh://svn.gersteinlab.org/repos/zl222/Projects/OligoWalk/NN_data/data_v2.3/efn_coax"
+   last-author="zl222"
+   kind="dir"
+   uuid="ed65c551-ac88-4a0b-ba9e-6970a5edde5c"
+   revision="9"/>
+<entry
+   committed-rev="1"
+   name="coaxial.dh23"
+   text-time="2008-10-19T23:18:55.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="0488597d6c48bb62456d1db84263dacb"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:18:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="coaxstack.dh23"
+   text-time="2008-10-19T23:18:56.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ab83bc640919826f40fda1fa9257f42e"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:18:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="coaxial.dat23"
+   text-time="2008-10-19T23:18:57.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="0488597d6c48bb62456d1db84263dacb"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:18:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="coaxstack.dat23"
+   text-time="2008-10-19T23:18:57.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ab83bc640919826f40fda1fa9257f42e"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:18:55.000000Z"/>
+</wc-entries>

@@ -1,0 +1,55 @@
+coaxial.dat		coaxial stacking without intervening mm;
+	==NN parameters
+
+coaxstack.dat	coaxial stacking with intervening mm
+	==sequence independent
+tstackcoax.dat	Terminal mismatch for coax stacking
+	==tstack.dat ==tstackm.dat
+
+tstackm.dat		Terminal mismatch for multi-branch loops
+	==tstack.dat ==tstackcoax.dat
+tstack.dat		Terminal mismatch and canonical MM (treated as A-C or C-A)
+tstackh.dat		Terminal mismatch for  + Haripin penalties and bonus
+tstacki1n.dat	Terminal mismatch + penalties + bonuses for 1Xn interior loops
+tstacki23.dat	Terminal mismatch + penalties + bonuses for 2X3 interior loops
+tstacki.dat 	Terminal mismatch + penalties + bonuses for other interior loops
+stack.dat		Canonical base pairs
+int11.dat		experimental and predicted data of 1X1 interior loops
+int21.dat		experimental and predicted data of 2X1 interior loops
+int22.dat		experimental and predicted data of 2X2 interior loops
+int22-exp.dat	experimental data of 2x2 interior loops
+triloop.dat		experimental data for special triloop
+tloop.dat		experimental data for special tetraloop
+hexaloop.dat	experimental data for special hexaloop
+loop.dat		initiations of loops (interior, bulge, hairpin)
+miscloop.dat	miscellaneous rules (asy, AU penalty, multiloop strain,etc)
+dangle.dat			dangling ends	
+
+
+
+
+
+tstacki.dh23   == tstack.dh23			dat23==copy from zuker's web(ACor CA mm)
+  tstacki1n.dh23						dat23	
+  tstacki23.dh23						dat23
+int21.dh23								dat23
+int22.dh23								dat23
+tstackh.dh23							dat23
+tloop.dh23/dat23	
+
+
+tstack.dh23/dat23                from Sera's paper			     
+tstackcoax.dh23/dat23			 ==(5' dangling end + 3' dangling end)
+  tstackm.dh23/dat23			 ==tstackcoax.dh23/dat23
+
+loop.dh23		==0				dat23	==copy from tables from zuker's web
+miscloop.dh23/dat23		(AU == 0     )
+dangle.dh23/dat23				== Copy
+coaxial.dh23   	==unchanged			dat23	==infinity
+coaxstack.dh23  ==unchanged			dat23	==infinity
+stack.dh23/dat23				==NN parameters
+int11.dh23/dat23				==copy
+triloop.dh23/dat23				==0	
+hexaloop.dh23/dat23				==0
+
+

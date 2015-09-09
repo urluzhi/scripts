@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="11"
+   name=""
+   committed-date="2008-09-13T14:16:22.218371Z"
+   url="svn+ssh://svn.gersteinlab.org/repos/zl222/Projects/OligoWalk/src"
+   last-author="zl222"
+   kind="dir"
+   uuid="ed65c551-ac88-4a0b-ba9e-6970a5edde5c"
+   revision="16"/>
+<entry
+   committed-rev="1"
+   name="thermo.cpp"
+   text-time="2008-10-19T23:21:34.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="4a01d4bb0f77882d8e5f0d38c4af4a2c"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_sub-opt.cpp"
+   text-time="2008-10-19T23:21:34.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="e5612ae90b8b359fdee0222c538e3342"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="stdafx.h"
+   text-time="2008-10-19T23:21:43.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="fd7a955e3d90d7ef99766ad7e9ef0330"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:25.000000Z"/>
+<entry
+   committed-rev="1"
+   name="structure.cpp"
+   text-time="2008-10-19T23:21:34.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="059a23488e357c8a348c8d3735676c70"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:52.000000Z"/>
+<entry
+   committed-rev="1"
+   name="algorithm_local.cpp"
+   text-time="2008-10-19T23:21:44.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="c4e1d34791cb7c310365ad0f00e93048"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:25.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pfunction_rescale.cpp"
+   text-time="2008-10-19T23:21:34.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="2aba40b983d85f1c7032f5546b6d230d"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:52.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rna_library.cpp"
+   text-time="2008-10-19T23:21:44.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ad2c3408f02238c0c38f7e630d8ec964"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:28.000000Z"/>
+<entry
+   committed-rev="1"
+   name="interface.h"
+   text-time="2008-10-19T23:21:35.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="8c53fb4e87bc60e6b13093a0f878df40"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:52.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rna_library_inter.cpp"
+   text-time="2008-10-19T23:21:44.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ca6da4853c7435946d94108ed1d99ed8"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:28.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_cgi.cpp"
+   text-time="2008-10-19T23:21:35.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="3ed51f18a254cedef75ee5092a059666"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:52.000000Z"/>
+<entry
+   committed-rev="1"
+   name="stochastic.h"
+   text-time="2008-10-19T23:21:44.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="9d32c7287e8e1bdd135da7d1262bf7cf"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:29.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pfunction.h"
+   text-time="2008-10-19T23:21:35.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="d2b4e57c502c6b3f30311a12cb4cb712"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="random.cpp"
+   text-time="2008-10-19T23:21:45.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="11a82681a0a078a74f3f64b816cd0e41"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:29.000000Z"/>
+<entry
+   committed-rev="1"
+   name="partitiontotal_tem.cpp"
+   text-time="2008-10-19T23:21:45.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ec91022066ae38db601a67805e1444bd"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:29.000000Z"/>
+<entry
+   committed-rev="1"
+   name="defines.h"
+   text-time="2008-10-19T23:21:45.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="62e0f3773a797a33ec4a34be1b7b7a14"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:29.000000Z"/>
+<entry
+   committed-rev="1"
+   name="globals.cpp"
+   text-time="2008-10-19T23:21:35.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="475d37ec614648f2c89782846dbd4f75"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_s4all.cpp"
+   text-time="2008-10-19T23:21:35.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="570d89f0059ae0b935c28daeeac0a420"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pclass.cpp"
+   text-time="2008-10-19T23:21:36.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="3ce11f595a81515a3777c4625d0c034d"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="siRNAfilter_main.cpp"
+   text-time="2008-10-19T23:21:36.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="7f2159a1379375e362c6555db79169bc"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_sample.cpp"
+   text-time="2008-10-19T23:21:45.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="acf566ee106d0987f57480da169124f4"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:30.000000Z"/>
+<entry
+   committed-rev="8"
+   name="siRNAfilter.h"
+   text-time="2008-10-22T02:46:39.000000Z"
+   committed-date="2008-09-13T13:48:49.296341Z"
+   checksum="73f22b4659f83c0d15d1f8f31e352892"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-22T02:46:38.000000Z"/>
+<entry
+   committed-rev="1"
+   name="partitiontotal_37_inter.cpp"
+   text-time="2008-10-19T23:21:36.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="95953bc87f57c66ba9152ecfff884aeb"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="stdafx.cpp"
+   text-time="2008-10-19T23:21:46.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="887c8d08190141f6c1e81215b06d61b1"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:30.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rnatotal_tem.cpp"
+   text-time="2008-10-19T23:21:46.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="4eba459ccb5dba1089a4f0fab76649da"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:30.000000Z"/>
+<entry
+   committed-rev="1"
+   name="platform.h"
+   text-time="2008-10-19T23:21:46.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="9aa327ae27dce7abf213f81aca2c7657"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:30.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_noscale.cpp"
+   text-time="2008-10-19T23:21:46.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="47ff88353e5b5e6d32729aadfbb96ff9"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:30.000000Z"/>
+<entry
+   committed-rev="8"
+   name="intermolecular.h"
+   text-time="2008-10-22T02:46:39.000000Z"
+   committed-date="2008-09-13T13:48:49.296341Z"
+   checksum="3d115355fe41642be3aac2c4422fcec7"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-22T02:46:38.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_s4.cpp"
+   text-time="2008-10-19T23:21:37.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="abfd4b0a2a7cfef20891261b71581712"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="dG_inter.cpp"
+   text-time="2008-10-19T23:21:37.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="5dc5d491c1ef52a88427c75ae95a17e1"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="algorithm.h"
+   text-time="2008-10-19T23:21:47.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="2ebce8f5b3447b118dba7420660a09ae"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Makefile"
+   text-time="2008-10-19T23:21:37.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="841e98b352947d60bbada8e1c420aae7"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="algorithm_inter.h"
+   text-time="2008-10-19T23:21:37.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="c9c16fc0e720d62ccfd6d556f2106ccc"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="alltrace.h"
+   text-time="2008-10-19T23:21:47.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="608de2f9dfb66fc4b836b8b479d2cf13"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pclass_noscale.h"
+   text-time="2008-10-19T23:21:37.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="79a0088310946003d0b85c0de5b7e7c7"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="dg_tem.cpp"
+   text-time="2008-10-19T23:21:37.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="3569e278588b0095e6c66bac2b5f7882"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="thermo.h"
+   text-time="2008-10-19T23:21:38.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="b9ab23704a300a711a4aab82857b11df"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="stochastic.cpp"
+   text-time="2008-10-19T23:21:39.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="593366899e483546da972524a17f7b28"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_global.cpp"
+   text-time="2008-10-19T23:21:40.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="21a1cbf66fdbd9ad55eac8c6cbe27b54"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pfunction.cpp"
+   text-time="2008-10-19T23:21:39.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="f94582c3c3bbd1b972f5a9857dad16c6"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="structure.h"
+   text-time="2008-10-19T23:21:39.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="3d07787d2608128456b973e4eac03408"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pfunction_inter.cpp"
+   text-time="2008-10-19T23:21:47.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ad45ee6fed9dbc20e2b8d3651d47edb1"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="OligoWalk.1"
+   text-time="2008-10-19T23:21:47.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="4acf216299dc29974465bb555c1b31e4"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pfunction_rescale.h"
+   text-time="2008-10-19T23:21:47.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="dce354b52575439414bf1d3f9cfcefc8"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rna_library.h"
+   text-time="2008-10-19T23:21:48.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="4bc02ece71e38f8c33f67893436e9e04"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:32.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rna_library_inter.h"
+   text-time="2008-10-19T23:21:40.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="19b8d32d5f0640160b6a113a6a266092"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="partitiontotal_inter.cpp"
+   text-time="2008-10-19T23:21:40.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ebf0550903c80f47cd4505332b9873a8"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:57.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular.cpp.bak"
+   text-time="2008-10-19T23:21:48.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="b8754ae066903b0e107cc1f904b76e84"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:32.000000Z"/>
+<entry
+   committed-rev="8"
+   name="siRNAfilter.cpp"
+   text-time="2008-10-22T02:46:40.000000Z"
+   committed-date="2008-09-13T13:48:49.296341Z"
+   checksum="29995f39ff3de7822a7f4471e53f348e"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-22T02:46:39.000000Z"/>
+<entry
+   committed-rev="1"
+   name="platform.cpp"
+   text-time="2008-10-19T23:21:40.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="b7190600a44cf851df254b27662ae123"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:23.000000Z"/>
+<entry
+   committed-rev="8"
+   name="intermolecular.cpp"
+   text-time="2008-10-22T02:46:39.000000Z"
+   committed-date="2008-09-13T13:48:49.296341Z"
+   checksum="d370c77e3daaa49f11007c31ddb7a7ed"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-22T02:46:38.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rnatotal_inter.cpp"
+   text-time="2008-10-19T23:21:48.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="1eaddc696018ea19f658d8bdd32c9443"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:32.000000Z"/>
+<entry
+   committed-rev="1"
+   name="random.h"
+   text-time="2008-10-19T23:21:48.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="f0cc1d242f3ac8d005f86d8f38697fb8"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:32.000000Z"/>
+<entry
+   committed-rev="1"
+   name="algorithm.cpp"
+   text-time="2008-10-19T23:21:42.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="5920ea76deebbb01f1afff05cd9cec7d"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:23.000000Z"/>
+<entry
+   committed-rev="1"
+   name="filelocking.cpp"
+   text-time="2008-10-19T23:21:49.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="00289b8dd63e01040c7972d2f26aad38"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:33.000000Z"/>
+<entry
+   committed-rev="1"
+   name="algorithm_inter.cpp"
+   text-time="2008-10-19T23:21:42.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="70acd355c39b50454f8af7a938a5c0ff"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:24.000000Z"/>
+<entry
+   committed-rev="1"
+   name="alltrace.cpp"
+   text-time="2008-10-19T23:21:49.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="66bae5ff1214a34596f696e8c6b44687"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:33.000000Z"/>
+<entry
+   committed-rev="8"
+   name="oligowalk.cpp"
+   text-time="2008-10-22T02:46:40.000000Z"
+   committed-date="2008-09-13T13:48:49.296341Z"
+   checksum="9c9f26c842b99e7f0b97ee4c861b6cfd"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-22T02:46:38.000000Z"/>
+<entry
+   committed-rev="1"
+   name="globals.h"
+   text-time="2008-10-19T23:21:49.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="7fc7c61bdb211ea9435bc81bf71910c7"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:33.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pclass_noscale.cpp"
+   text-time="2008-10-19T23:21:43.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="e2c646bb287f1ecf0dbc920625b3d2f8"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:24.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pclass.h"
+   text-time="2008-10-19T23:21:49.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ccaa7df5e2bcdf610f959521bf3ee114"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:33.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_debug.cpp"
+   text-time="2008-10-19T23:21:50.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="40235040fb013ee33ec813cf2b302e14"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:33.000000Z"/>
+<entry
+   committed-rev="1"
+   name="intermolecular_blank.cpp"
+   text-time="2008-10-19T23:21:50.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="5106d9f32da70f2022a5cd0beb57a4c7"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:21:33.000000Z"/>
+</wc-entries>

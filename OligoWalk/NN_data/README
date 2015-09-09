@@ -1,0 +1,59 @@
+*****************************************************************************
+* Free energy (.dat) and enthalpy (.dh) data tables
+
+***************************************************************************** 
+coaxial.dat/ .dh		coaxial stacking without intervening mm; == NN parameters
+coaxstack.dat/ .dh		coaxial stacking with intervening mm; sequence independent
+dangle.dat / .dh		dangling ends
+hexaloop.dat /.dh		experimental data of special hexa loop
+tloop.dat /.dh			special tetra loop
+triloop.dat /.dh		special tri loop
+int11.dat /.dh			experimental and predicted data of 1x1 internal loops (no experimental data for .dh)
+int21.dat /.dh			experimental and predicted data of 1x2 internal loops 
+int22.dat /.dh			experimental and predicted data of 2x2 internal loops 
+int22-exp.dat /.dh		experimental  data of 2x2 internal loops
+loop.dat /.dh			Initiations for loops (Internal, Bulge, Hairpin)
+miscloop.dat/.dh		Miscellaneous rules (asy, AU penalty, multiloop strain, etc.)
+stack.dat /.dh			Nearest Neighbor parameters for base pairs stack
+tstack.dat /.dh			Terminal mismatch and cannonical MM (treated as A-C or C-A)
+tstackcoax.dat /.dh		Terminal mismatch in the coaxial stacking == tstack.dat/.dh
+tstackh.dat .dh			Hairpin penalties and Bonus + first MM stacking
+tstacki1n.dat/.dh		Penalties and Bonuses of 1x (n-1) n>3 internal loop
+tstacki23.dat /.dh		penalties and bonuses of 2x3 internal loop
+tstacki.dat /.dh		penalties and bonuses of other internal loop
+tstackm.dat /.dh 		Terminal mismatch for multi-branch loops == tstack.dat /.dh
+
+
+
+
+
+
+
+Dec. 16, 2005
+.dat:
+1.	tstack.dat:		should use AC or CA’s energy for canonical base pairs.
+2.	coaxstack.dat:	not 2.1 everywhere.( 2.5/2.3 were used for canonical pairs in old data table as the sensitivities achieved the best ones)
+		changing -2.1 -> -2.2, as some mistakes were found in the experimental results handling.
+
+					This one will keep unchanged.
+3.	tloop.dat:		three sequences were corrected.
+4.	hexaloop.dat:	one sequence was corrected
+5	int21.dat:		some canonical base pairs’s penalty and bonus were mis-added.
+
+
+.dh:
+1.	tstackh.dh:		a typo were find for a mismatch.
+2.	RTln (#of states) for bulge is not changed with temperature in rnatotal_tem.cpp.
+3.	coaxstack.dh:	-0.3/-0.1 bonus for canonical pairs
+
+
+Jan. 09, changing free energy and enthalpy parameters for internal loops 
+	
+1. loop.dat	/dh
+2. miscloop.dh
+3. int11.dh
+4. int21.dat /dh  (some experimental data)
+5. tstacki1n.dh
+6. tstacki23.dat /dh
+7  tstacki.dat/dh
+

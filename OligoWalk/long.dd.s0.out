@@ -1,0 +1,29 @@
+<h1>RNAstructure OligoWalk calculation:</h1>
+
+<HR>
+Target sequence: X03363
+<br>Total size of the target -> 4473 nucleotides <br>
+Scanned position on target: 1 (nt) -- end <br>
+
+<br>Oligonucleotides:<br>
+Type -> DNAoligo-DNA 	length -> 25	concentration: -> 1e-07  M<br><br>
+
+Method options: <br>
+Refold target structure after oligo binding<br>
+Folding region size -> 100 nt <br>
+Only one optimal structure was considered.<br>
+
+<br>Prefilter was used.<br>
+<HR>
+
+<br><br>
+<h3>Energy table:</h3><br>
+<table>
+<tr> <td>Pos.</td>	<td>Oligo(5'->3')</td><td> </td>					<td>Overall</td>	<td>Duplex</td>	<td>Tm-Dup</td>	<td>Break-targ.</td>	<td>Intraoligo</td>	<td>Interoligo</td>	<td>End_diff</td>	<td>prefilter_score</td></tr><tr> </tr>
+
+						<tr> <td> </td><td> </td> <td><td>kcal/mol</td>	<td>kcal/mol</td>	<td>degC</td>		<td>kcal/mol</td>		<td>kcal/mol</td>	<td>kcal/mol</td>	<td>kcal/mol</td></tr>
+<tr><td>2</td>	<td>CAAAGGGGCCAGGGTTACCTCCCCT</td><td> </td>		<td>-20.3</td>		<td>-35.1</td>		<td>0</td>		<td>-9.2</td>			<td>-5.6</td>		<td>-14</td>		<td>0</td>		<td>99</td>		</tr>
+<tr><td>5</td>	<td>GACCAAAGGGGCCAGGGTTACCTCC</td><td> </td>		<td>-24.2</td>		<td>-34.7</td>		<td>0</td>		<td>-9.2</td>			<td>-1.2</td>		<td>-8.7</td>		<td>0.8</td>		<td>99</td>		</tr>
+<tr><td>160</td>	<td>CCAGCTCCATGGTGCTCACTGCGGC</td><td> </td>		<td>-26.2</td>		<td>-37.7</td>		<td>0</td>		<td>-8.9</td>			<td>-2.6</td>		<td>-13.3</td>		<td>0.6</td>		<td>99</td>		</tr>
+<tr><td>4438</td>	<td>TCTTTATTTCATCTTTAAAAAAACA</td><td> </td>		<td>-18</td>		<td>-24.9</td>		<td>0</td>		<td>-6</td>			<td>-0.7</td>		<td>-4.2</td>		<td>-0.6</td>		<td>99</td>		</tr>
+</table>

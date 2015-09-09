@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2008-09-12T09:01:55.688121Z"
+   url="svn+ssh://svn.gersteinlab.org/repos/zl222/Projects/OligoWalk/NN_data/free_energy"
+   last-author="zl222"
+   kind="dir"
+   uuid="ed65c551-ac88-4a0b-ba9e-6970a5edde5c"
+   revision="9"/>
+<entry
+   committed-rev="1"
+   name="loop.dat"
+   text-time="2008-10-19T23:20:10.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="f98b600837022813d98921173523ea4a"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:06.000000Z"/>
+<entry
+   committed-rev="1"
+   name="hexaloop.dat"
+   text-time="2008-10-19T23:20:10.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="5b96308691d9efd76326764a147f652a"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="coaxstack.dat"
+   text-time="2008-10-19T23:20:11.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="9ce172d8fb04c6a0c21523257d65301d"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="coaxial.dat"
+   text-time="2008-10-19T23:20:11.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="f0942b366406e0b0bfd34c1dc03de077"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="miscloop.dat"
+   text-time="2008-10-19T23:20:11.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="fbb85d04004bf25a959a17a7dab82ccd"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="triloop.dat"
+   text-time="2008-10-19T23:20:11.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ea51bbd4dd8c44adfd4dfbc4ea43c4d2"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tstack.dat"
+   text-time="2008-10-19T23:20:11.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="da59f207bf3e6c6974d3fea5d36409ff"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="dangle.dat"
+   text-time="2008-10-19T23:20:11.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="1231f51da1fb1c3939e7774349706e9e"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="int11.dat"
+   text-time="2008-10-19T23:20:12.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="9ffccc0e5dc6da96eca0827b0083ac4c"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tloop.dat"
+   text-time="2008-10-19T23:20:12.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="881a308082e1a6f9b91a8e5e319434c1"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="int21.dat"
+   text-time="2008-10-19T23:20:12.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="a106ebb4e0eaa521dafb24d254377c65"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="int22.dat"
+   text-time="2008-10-19T23:20:12.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="c30be93ecdd87e2942cab249ef81b92f"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:09.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tstackh.dat"
+   text-time="2008-10-19T23:20:12.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="2e79e8fbc495c6cc5165acf19b6939a8"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:09.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tstacki1n.dat"
+   text-time="2008-10-19T23:20:12.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="90c89d553b934f7c78893f54611b4844"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:09.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tstacki.dat"
+   text-time="2008-10-19T23:20:13.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="92e4a572502e7d97af59d25203a9f037"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:09.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tstackcoax.dat"
+   text-time="2008-10-19T23:20:13.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="da59f207bf3e6c6974d3fea5d36409ff"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:09.000000Z"/>
+<entry
+   committed-rev="1"
+   name="readme.txt"
+   text-time="2008-10-19T23:20:13.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="953ebf0115d66bd8c1abc356c8c7340e"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:10.000000Z"/>
+<entry
+   committed-rev="1"
+   name="stack.dat"
+   text-time="2008-10-19T23:20:13.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="f0942b366406e0b0bfd34c1dc03de077"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:10.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tstackm.dat"
+   text-time="2008-10-19T23:20:13.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="da59f207bf3e6c6974d3fea5d36409ff"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:10.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tstacki23.dat"
+   text-time="2008-10-19T23:20:14.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="dfd592ea715a16a1925082e036d8c3d2"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:10.000000Z"/>
+</wc-entries>

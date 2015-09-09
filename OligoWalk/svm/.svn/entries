@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2008-09-13T13:54:46.761053Z"
+   url="svn+ssh://svn.gersteinlab.org/repos/zl222/Projects/OligoWalk/svm"
+   last-author="zl222"
+   kind="dir"
+   uuid="ed65c551-ac88-4a0b-ba9e-6970a5edde5c"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="svm-train"
+   text-time="2008-10-19T23:20:49.000000Z"
+   committed-date="2008-09-13T13:54:46.761053Z"
+   checksum="87c9c82f5074bbf689cdeb175321d80e"
+   last-author="zl222"
+   kind="file"
+   conflict-new="svm-train.r9"
+   prop-time="2008-10-22T02:49:19.000000Z"
+   conflict-old="svm-train.r2"/>
+<entry
+   committed-rev="1"
+   name="prefilter_svm_model"
+   text-time="2008-10-19T23:20:49.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="62d64df14e8fe727f9bfcf09a78a4a07"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="svm_model"
+   text-time="2008-10-19T23:20:49.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="5ff313d6c349efc3e1c1ca5bda7057d8"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="prefilter_svm_scaler"
+   text-time="2008-10-19T23:20:49.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="ddcb8cc475f55c36b976ae210269332d"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:48.000000Z"/>
+<entry
+   committed-rev="9"
+   name="svm-scale"
+   text-time="2008-10-19T23:20:49.000000Z"
+   committed-date="2008-09-13T13:54:46.761053Z"
+   checksum="f29a08d3b4ce0a079ae567db89f4bca7"
+   last-author="zl222"
+   kind="file"
+   conflict-new="svm-scale.r9"
+   prop-time="2008-10-22T02:49:20.000000Z"
+   conflict-old="svm-scale.r2"/>
+<entry
+   committed-rev="9"
+   name="svm-predict"
+   text-time="2008-10-19T23:20:50.000000Z"
+   committed-date="2008-09-13T13:54:46.761053Z"
+   checksum="0245084346a4db5fa7fa0e84ae12ca0b"
+   last-author="zl222"
+   kind="file"
+   conflict-new="svm-predict.r9"
+   prop-time="2008-10-22T02:49:20.000000Z"
+   conflict-old="svm-predict.r2"/>
+<entry
+   committed-rev="1"
+   name="svm_scaler"
+   text-time="2008-10-19T23:20:50.000000Z"
+   committed-date="2008-09-12T09:01:55.688121Z"
+   checksum="6f7f69cb271f7810aa5a6218a0a76114"
+   last-author="zl222"
+   kind="file"
+   prop-time="2008-10-19T23:20:48.000000Z"/>
+</wc-entries>

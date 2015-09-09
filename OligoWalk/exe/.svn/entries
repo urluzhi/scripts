@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2008-09-13T13:54:46.761053Z"
+   url="svn+ssh://svn.gersteinlab.org/repos/zl222/Projects/OligoWalk/exe"
+   last-author="zl222"
+   kind="dir"
+   uuid="ed65c551-ac88-4a0b-ba9e-6970a5edde5c"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="OligoWalk"
+   text-time="2008-10-19T23:18:43.000000Z"
+   committed-date="2008-09-13T13:54:46.761053Z"
+   checksum="ec41d2062f37b9c26c28e9d4a2197628"
+   last-author="zl222"
+   kind="file"
+   conflict-new="OligoWalk.r9"
+   prop-time="2008-10-22T02:49:18.000000Z"
+   conflict-old="OligoWalk.r2"/>
+</wc-entries>
