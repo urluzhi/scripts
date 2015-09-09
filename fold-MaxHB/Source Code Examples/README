@@ -1,0 +1,39 @@
+>>>>>>  maxHydrogenBonds.pl  <<<<<<
+
+maxHydrogenBonds.pl is an executable perl script that predict an RNA secondary structure with the maximum hydrogen bonds. It was written by Yang Wu at Lu lab, Tsinghua University.
+
+It accepts an RNA/DNA sequence as the input, and transforms it into an RNA sequence that only contains AUCGs if necessary. Using the transformed RNA sequence, maxHydrogenBonds.pl predicts an optimal secondary structure that having the maximum hydrogen bounds. 
+
+Carnonical base pairs contain different number of hydrogen bonds. For example, GC or CG pair contains 3 hydrogen bonds. Meanwhile, other pairs, like AU, UA, GU and UG pairs, only harbor 2 hydrogen bonds. To form base pairing, the bases of an RNA should not be too close. In the script, a minimum length of internal loops is set to be 3.
+
+To use maxHydrogenBonds.pl, you can firstly check its usage and help information by directly run it.
+$ perl maxHydrogenBonds.pl
+
+You can find that the usage of maxHydrogenBonds.pl is quite simple, just use the command line.
+$ perl maxHydrogenBonds.pl [sequence] >outfile
+
+The input is an sequence, whether DNA or RNA.
+The output contains the summary of the task, the sequence and the predicted structure in dot format of the input RNA, as well as the 'W' and 'T' arrays that required by the predicting. The predicted structure is in the beginning of the outfile.
+
+An example:
+
+  Input sequence: ACUUUGU
+  Script: perl maxHydrogenBonds.pl ACUUUGU >perl_ACUUUGU.txt
+  Check output: cat perl_ACUUUGU.txt 
+
+>>>>>>  maxHB.cpp and maxHB  <<<<<<
+
+maxHB.cpp is a C++ srouce code that predict an RNA secondary structure with the maximum hydrogen bonds. It follows the same critera with maxHydrogenBonds.pl. It was written by Xinqiang Ding at Lu lab, Tsinghua University.
+ 
+maxHB is the executable file of maxHB.cpp complied by g++. You can use it simply by:
+$ ./maxHB [sequence] >outfile
+
+The input is an RNA sequence. Because the script does not transform DNA sequence automatically. Please make sure your input sequence only contains AUCGs.
+The output contains the 'W' and 'T' arrays, the sequence and predicted structure in dot format. The predicted structure is in the end of the outfile 'c_plus_ACUUUGU.txt'.
+
+An example:
+  (Please compile the program first: g++ -o maxHB maxHB.cpp)
+  Input sequence: ACUUUGU
+  Script: ./maxHB ACUUUGU >c_plus_ACUUUGU.txt
+  Check output: cat c_plus_ACUUUGU.txt
+
