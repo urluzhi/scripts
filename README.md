@@ -2,8 +2,7 @@
 
 Scripts/Software shared by Zhi John Lu
 
-> Programming is a way of life. It relects both art of design and logic of plan.
-> Althoug I keep reminding myself the goal is to shoot a bird during my research, I often find myself enjoying the shine of gun itself.
+> Programming is a way of life. It contains both logic and art.
 
 * MOE Key Lab of Bioinformatics
 * School of Life Sciences, Tsinghua University
