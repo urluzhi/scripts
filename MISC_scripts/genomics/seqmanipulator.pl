@@ -59,7 +59,7 @@ SUBROUTINES:
 	&write_seq
 		write("FILE.seq",\$nucs)
 
-Created: Sep. 28, 2006      Last Modified:  Sep. 29, 2006
+Created: Sep. 28, 2006      Last Modified:  Sep. 29, 2007
 by John(Zhi Lu)            zhi_lu\@urmc.rochester.edu
 EOF
 

@@ -9,9 +9,9 @@ OPTIONS:
 EOF
 #options:
 my %option_hash = (-count=>\&count,
-	   				-extract=>\&extract,
-	   				-count_maf=>\&count_maf,
-					-o=>\&output);
+	   	-extract=>\&extract,
+	   	-count_maf=>\&count_maf,
+		-o=>\&output);
 ##############################################################
 die $usage unless (@ARGV); my $option = ($ARGV[0]);
 die("Unknown option: $option\n$usage\n") unless (defined($option_hash{$option}));
