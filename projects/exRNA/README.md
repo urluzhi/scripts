@@ -1,8 +1,8 @@
-# Projects
+# exRNA scripts
 
-Project scripts shared by Zhi John Lu
+#Scripts for exRNA project.
 
-
+Shared by Zhi John Lu
 
 
 ---

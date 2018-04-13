@@ -1,7 +1,6 @@
 # Projects
 
-Project scripts shared by Zhi John Lu
-
+Scripts of each project shared by Zhi John Lu
 
 
 
