@@ -1,4 +1,4 @@
-# Projects
+# Lu Lab -- PI
 
 Bioinformatics projects and code shared by Zhi John Lu.
 
