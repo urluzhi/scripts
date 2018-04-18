@@ -1,6 +1,6 @@
 # Lu Lab -- PI
 
-Bioinformatics projects and code shared by Zhi John Lu.
+[Bioinformatics projects and code](https://github.com/lulab/PI) shared by Zhi John Lu.
 
 
 
