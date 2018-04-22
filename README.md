@@ -1,4 +1,4 @@
-## Personal bioinformatics [projects and code](https://github.com/urluzhi/scripts) 
+## [projects and code](https://github.com/urluzhi/scripts) 
 
 shared by Zhi John Lu
 
