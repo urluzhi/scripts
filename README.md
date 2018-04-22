@@ -1,6 +1,8 @@
 # Lu Lab -- PI
 
-## Bioinformatics [projects and code](https://github.com/urluzhi/scripts) shared by Zhi John Lu.
+## Bioinformatics [projects and code](https://github.com/urluzhi/scripts) 
+
+shared by Zhi John Lu.
 
 
 
