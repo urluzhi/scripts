@@ -8,7 +8,8 @@ model_file="5classes.rf.model"
 dataall=input[,c(8:12,15:16,18:19)]
 classesall=subset(input,select=X1.Annotation)
 
-#Generate training and testing sets
+#Generate training and testing sets 
+# (call also be called Discovery and Validation Sets)
 nall=nrow(input)
 ntrain=2*floor(nall/3)
 datatrain <- dataall[1:ntrain,]
