@@ -19,14 +19,13 @@ classestest <- classesall[ntrain:nall,]
 
 
 
-#10 fold cross-validation on training set
+#10 fold cross-validation on training set （here training set can be called Discovery Set)
 obj=tune(randomForest,train.x=datatrain,train.y=classestrain,ntree=1000)
 write(paste("Error estimation of randomForest using 10-fold cross validation:",obj$performance$error,spe="\t"),file=output)
 
 
 
-#test on testing set
-#predict on testing test
+#predict on testing test (here testing set can also be called an independent Validation Set)
 rf=randomForest(datatrain,classestrain,xtest=datatest,ytest=classestest,ntree=1000,importance = TRUE,proximity = TRUE)
 save(rf, file=model_file)
 prob=rf$test$votes
